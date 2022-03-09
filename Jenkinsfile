@@ -37,7 +37,7 @@ pipeline {
                             }
 
                             steps {
-                                echo '=== Building simple-java-maven-app Docker Image ==='
+                                
                                 script {
                                     app = docker.build("bobos77/simple-java-maven-app")
                                 }
